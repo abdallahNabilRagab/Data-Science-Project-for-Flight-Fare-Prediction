@@ -315,3 +315,26 @@ with st.expander("🔍 Model Transparency"):
     st.write("Training samples:", df_raw.shape[0])
     st.write("Features used:", len(feature_columns))
     st.write("Inference Layer:", "src.inference.predict()")
+
+# --------------------------------------------------------------
+# Footer / Developer Info Section
+# --------------------------------------------------------------
+st.markdown("---")
+st.subheader("👨‍💻 Developer Information")
+
+st.markdown("""
+**This application was fully developed and engineered by:**
+
+### 🧑‍💻 **Abdallah Nabil Ragab**  
+**Data Scientist | Machine Learning Engineer | Software Engineer**  
+**M.Sc. in Business Information Systems**
+
+If you have any suggestions, ideas, feature requests, or want to report issues,  
+please feel free to send your feedback directly via email:
+
+📩 **Email:** `abdallah.nabil.ragab94@gmail.com`  
+
+I appreciate your thoughts and feedback that help improve this project.  
+""")
+st.markdown("---")
+
